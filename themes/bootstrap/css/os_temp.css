@@ -1,0 +1,239 @@
+.os_none.bor_right{
+	border-right:solid 1px #DDDDDD !important;	
+}
+.os_none.bor_left{
+	border-left:solid 1px #DDDDDD !important;	
+}
+.os_none {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-left: medium none !important;
+}
+.os_fav {
+    background: url("../img/fav.png") no-repeat scroll 0 -17px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 18px;
+}
+.os_fav:hover {
+    background: url("../img/fav.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+
+.os_edite_icon {
+    background: url("../img/edit_inline.png") no-repeat scroll 4px 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.os_volum{
+    background: url(../img/view_status.png) scroll 0 -17px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 18px;
+	}
+
+.os_magec {
+    background: url("../img/edit_wizard.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.os_email{
+    background: url("../img/emil.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;}
+.os_sms{
+    background: url("../img/sms.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;	
+}
+
+.os_info_btn {
+    background: url("../img/info_inline.png") no-repeat scroll 4px 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.no_border{
+	border:none !important;
+}
+.os_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+}
+
+
+.small-input
+{
+	width:100px !important;
+}
+
+.title
+{
+	float:left;
+	width:96%;
+	padding:0 2%;
+	font-size:18px;
+}
+
+.title2
+{
+	float:left;
+	width:96%;
+	padding:0 2%;
+	
+}
+
+.title3
+{
+	float:left;
+	font-size:18px;
+	
+	
+}
+
+
+
+.check1
+{
+	float:left;
+}
+
+.label1
+{
+	float:left;
+	padding-left:5px;
+}
+
+.head-bg
+{
+	float:left;
+	width:100%;
+	font-size:18px;
+	color:#666;
+}
+
+.dash-block
+{
+	float:left;
+	width:100%;
+}
+
+.items .caret{
+margin: 10px;
+border-top: 4px solid #fff;
+}
+
+.h2{
+background: #3A87AD;
+color: #fff;
+padding: 10px 20px;
+font-size: 15px;
+}
+.h2 a i{
+color: #fff;
+margin: 0 5px 0 0;
+
+}
+.h2 a{
+color: #fff !important;
+margin: 0 55px 0 0;
+text-decoration:none !important;
+
+}
+.h2 a:hover{
+text-decoration: none;
+color: #ccc;
+
+}
+.h2 a:hover i{
+text-decoration: none;
+color: #ccc;
+
+}
+
+
+/***********************************************view message******************************/
+.email-view
+{
+	width:100%;
+}
+
+.email-view .view-msg
+{
+	
+	width:98%;
+	background:#F0F0F0;
+	padding:10px;
+	border-bottom:1px solid #ccc;
+}
+
+.email-view .view-msg .detail-view
+{
+	margin-top:10px;
+	background:#F0F0F0;
+	
+}
+
+.email-view .view-msg .detail-view th, .email-view .view-msg .detail-view td
+{
+	
+	font-size:14px;
+	padding:3px 8px;
+	text-align:left !important;
+	background:none !important;
+	border-top:0 !important;
+}
+
+.email-view .view-msg .detail-view th
+{
+	width:10% !important;
+	color:#333 !important;
+	
+}
+
+.email-view .v-msgs
+{
+	padding: 10px 20px;
+    width: 96%;
+}
+
+.text
+{
+	background: none repeat scroll 0 0 #F0F0F0;
+    float: right;
+    padding: 5px;
+    width: 98%;
+}
+
+.yiichat .posts .post .track
+{
+	background:none;
+}
+
+.yiichat .posts .post .track .owner
+{
+	font-weight:bold;
+	text-transform:capitalize;
+	color:#006DCC;
+}
+
+.all-mssg
+{
+	width:65% !important;
+}
+
+.new_search
+{
+	float:left;
+	width:100%;
+	font-size:18px;
+	color:#0088CC;
+	margin:5px 0 15px;	
+}
+
+
+

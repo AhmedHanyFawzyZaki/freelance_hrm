@@ -1,0 +1,19 @@
+1-Add the following piece of code in components of the config/main.php file.
+'phpThumb'=>array(
+		'class'=>'ext.EPhpThumb.EPhpThumb.EPhpThumb',
+		),
+
+2-Add the following piece of code after creating your original image.
+	a-put the path and the name of the image in create fn.
+	b-put the path and the name of the thumb image in the save fn.
+	c-put your thumb image width and height in the resize fn.
+<? 
+$thumb=Yii::app()->phpThumb->create(Yii::app()->basePath .DIRECTORY_SEPARATOR.'..'.'/media/products/'.$product->image);
+$thumb->resize(266,300);
+$thumb->save(Yii::app()->basePath .DIRECTORY_SEPARATOR.'..'.'/media/products/thumbs/'.$product->image);
+?>
+
+3-for more details and more functionality options please visit
+	a-http://www.yiiframework.com/extension/ephpthumb/
+Or
+	b-https://github.com/masterexploder/PHPThumb/wiki/Basic-Usage
